@@ -15,11 +15,11 @@ Installation
 
 It is just a matter of a simple oneliner to get Agner installed:
 
-     curl https://raw.github.com/agner/agner/master/scripts/oneliner | sh
+     curl https://raw.github.com/protomouse/agner/master/scripts/oneliner | sh
 
 If you want to install latest release instead of HEAD, use this one:
 
-     curl https://raw.github.com/agner/agner/master/scripts/oneliner.release | sh
+     curl https://raw.github.com/protomouse/agner/master/scripts/oneliner.release | sh
 
 Motivation
 ----------
@@ -234,10 +234,10 @@ Package organization
 
 When Agner is invoked, it will scan its *indices* for package
 lists. The default index is "agner", which is located at
-[https://github.com/agner/](https://github.com/agner/). The index is
+[https://github.com/protomouse/](https://github.com/protomouse/). The index is
 scanned by looking for *Agner repositories* which are normal (github)
 repositories suffixed with `.agner`. An example is the repository
-[https://github.com/agner/getopt.agner](https://github.com/agner/getopt.agner)
+[https://github.com/protomouse/getopt.agner](https://github.com/protomouse/getopt.agner)
 which contains the package details of the `getopt` package.
 
 It is important to nail down that there are three balls in the air:
@@ -411,7 +411,7 @@ then, in your .app or .app.src file, add something like this as one of your `app
           ]}
      ...
 
-An example can be found in [agner itself](https://github.com/agner/agner/blob/master/src/agner.app.src)
+An example can be found in [agner itself](https://github.com/protomouse/agner/blob/master/src/agner.app.src)
 
 Also, you can also specify your own indices in rebar.config
 
